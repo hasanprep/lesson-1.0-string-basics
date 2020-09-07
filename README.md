@@ -64,6 +64,11 @@ In addition to the limitations above, variables cannot be named using one of the
 
 `and`,  `as`, `assert`, `async`,`await`, `break`, `class`, `continue`, `def`, `del`, `elif`, `else`, `except`,  `False`, `finally`, `for`, `from`, `global`, `if`, `import`, `in`, `is`, `lambda`,  `None`, `nonlocal`, `not`, `or`, `pass`, `raise`, `return`, `True`, `try`, `while`, `with`, `yield`
 
+There are also a couple of things that should be avoided for a more pythonic style. The following is allowed but are typically used for purposes that are beyond the scope of this lesson.
+
+- Avoid using all capitals. (i.e. `FIRST_NAME`)
+- Avoid using a capital letter at the beginning. (i.e. `Favorite_food`)
+
 ---
 
 
@@ -74,7 +79,7 @@ Write a program that describes AND prints five things about yourself using five 
 Here is an example program:
 
 ```python
-# Declare five variables that describe yourself.
+# Declare five variables with strings that describe yourself.
 name = 'My name is Simon Escalada-Mastick.'
 degrees = 'I studied linguistics and mathematics in college.'
 occupation = 'I am a data analyst and teacher at HPLS.'
