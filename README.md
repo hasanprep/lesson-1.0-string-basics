@@ -23,16 +23,32 @@
 
 Notice how the examples above are a sequence of characters between either `' '` or `" "`. The first two examples are sentences. The third is a single character. The fourth example is a file name. The fifth is the URL to Google. And even though the sixth example may appear to be numeric, it is also a string. The final string example is just a space. Even though this may not seem like a character, Python recognizes it as a character. This is an example of what is known as **whitespace**. Whitespace will be covered more in the subsequent lessons. 
 
-As mentioned previously, it does not matter if `' '` is used or `" "` are used. Python will interpret them the same way. In fact it does not affect the string between the two types of quotes mention. We can test two strings using the **equality operator** (`==`) to determine if the they are the same or equal. Type the following in the REPL:
+As mentioned previously, it does not matter if `' '` is used or `" "` are used. Python will interpret them the same way. In fact it does not affect the string between the two types of quotes mention. We can test two strings using the **equality operator** (`==`) to determine if the they are the same or equal. Try the code below __Example 1__ in the REPL:
+
+#### Example 1
 
 ```python
 'Python' == "Python"
 ```
 
-The interpreter will output `True`, because the strings are identical between the two different quotes. Now try to input the following in the REPL:
+The output is as follows:
+
+```
+True
+```
+
+The interpreter will output `True`, because the strings are identical between the two different quotes. Now try to input the following code below __Example 2__ in the REPL:
+
+#### Example 2
 
 ```python
 'Python' == "python"
+```
+
+The output is as follows:
+
+```
+False
 ```
 
 The interpreter will output `False`, because the first string has a capital `P` and the second string has a lowercase `p`. So even though both strings say 'Python', Python can determine that there is a difference.
@@ -45,12 +61,22 @@ When you create an object such as a string in Python, it is stored somewhere on 
 first_name = 'Bob'
 ```
 
-You can now print the name 'Bob' using the variable instead of the string.
+You can now print the name `Bob` using the variable instead of the string. Try the code following __Example 3__ in the REPL.
+
+#### Example 3
 
 ```python
 first_name = 'Bob'
 print(name)
 ```
+
+The output is as follows:
+
+```
+Bob
+```
+
+### Choosing Variable Names
 
 Choosing variable names has limitations: 
 
