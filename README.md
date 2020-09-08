@@ -62,7 +62,23 @@ Choosing variable names has limitations:
 
 In addition to the limitations above, variables cannot be named using one of the **reserve words** or **keywords** in Python. These words have a special meaning in Python. Here is a list of these words:
 
-`and`,  `as`, `assert`, `async`,`await`, `break`, `class`, `continue`, `def`, `del`, `elif`, `else`, `except`,  `False`, `finally`, `for`, `from`, `global`, `if`, `import`, `in`, `is`, `lambda`,  `None`, `nonlocal`, `not`, `or`, `pass`, `raise`, `return`, `True`, `try`, `while`, `with`, `yield`
+```
+and       continue  finally   is        raise
+as        def       for       lamda     return
+assert    del       from      None      True
+async     elif      global    nonlocal  try
+await     else      if        not       while
+break     except    import    or        with
+class     False     in        pass      yield
+```
+
+To see the list of keywords type the following two commands in the interpreter.
+
+```
+>>> import keyword
+>>> keyword.kwlist
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+```
 
 There are also a couple of things that should be avoided for a more pythonic style. The following is allowed but are typically used for purposes that are beyond the scope of this lesson.
 
