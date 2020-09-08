@@ -57,7 +57,7 @@ Choosing variable names has limitations:
 | Limitation                                                   | Good                            | Bad             |
 | ------------------------------------------------------------ | ------------------------------- | --------------- |
 | Variables cannot begin with a number.                        | `name1`                         | `1name`         |
-| Variables cannot have special characters <br />other than an underscore (`_`). | `first_name`-                   | `first-name`,   |
+| Variables cannot have special characters <br />other than an underscore (`_`). | `first_name`                    | `first-name`,   |
 | Variables cannot have whitespace.                            | `favorite_food`, `favoriteFood` | `favorite food` |
 
 In addition to the limitations above, variables cannot be named using one of the **reserve words** or **keywords** in Python. These words have a special meaning in Python. Here is a list of these words:
