@@ -123,7 +123,7 @@ Write a program that describes AND prints five things about yourself using five 
 Here is an example program:
 
 ```python
- # Declare five variables with strings that describe yourself.
+ # Declare FIVE variables with strings that describe yourself.
 name = 'My name is Simon Escalada-Mastick.'
 degrees = 'I studied linguistics and mathematics in college.'
 occupation = 'I am a data analyst and teacher at HPLS.'
