@@ -13,13 +13,13 @@
 
 **Strings** or **string literals** are a sequence or characters. They are usually used to represent human language, file names, web addresses, etc. Things that are non-numeric sequences of characters are usually strings, but it is possible for a sequence of numeric characters to be a string as well. Stings in Python are created with either single quotes (`' '`) or double quotes (`" "`). You will definitely see them both ways. Some people prefer to use single quotes as it is one less key stroke. Here are some examples of strings:
 
-`'We are leaning Python'`
-`"Python is the 3rd most popular programming language."`
-`'a'`
-`'main.py'`
-`"https://www.google.com/"`
-`'3.141592653589793238462643383279'`
-`" "`
+- `'We are leaning Python'`
+- `"Python is the 3rd most popular programming language."`
+- `'a'`
+- `'main.py'`
+- `"https://www.google.com/"`
+- `'3.141592653589793238462643383279'`
+- `" "`
 
 Notice how the examples above are a sequence of characters between either `' '` or `" "`. The first two examples are sentences. The third is a single character. The fourth example is a file name. The fifth is the URL to Google. And even though the sixth example may appear to be numeric, it is also a string. The final string example is just a space. Even though this may not seem like a character, Python recognizes it as a character. This is an example of what is known as **whitespace**. Whitespace will be covered more in the subsequent lessons. 
 
