@@ -83,19 +83,19 @@ Choosing variable names has limitations:
 | Limitation                                                   | Good                            | Bad             |
 | ------------------------------------------------------------ | ------------------------------- | --------------- |
 | Variables cannot begin with a number.                        | `name1`                         | `1name`         |
-| Variables cannot have special characters <br />other than an underscore (`_`). | `first_name`                    | `first-name`,   |
+| Variables cannot have special characters <br />other than an underscore (`_`). | `first_name`                    | `first-name`   |
 | Variables cannot have whitespace.                            | `favorite_food`, `favoriteFood` | `favorite food` |
 
 In addition to the limitations above, variables cannot be named using one of the **reserve words** or **keywords** in Python. These words have a special meaning in Python. Here is a list of these words:
 
 ```
-and       continue  finally   is        raise
-as        def       for       lamda     return
-assert    del       from      None      True
-async     elif      global    nonlocal  try
-await     else      if        not       while
-break     except    import    or        with
-class     False     in        pass      yield
+and            continue       finally        is             raise
+as             def            for            lamda          return
+assert         del            from           None           True
+async          elif           global         nonlocal       try
+await          else           if             not            while
+break          except         import         or             with
+class          False          in             pass           yield
 ```
 
 To see the list of keywords type the following two commands in the interpreter.
@@ -123,7 +123,7 @@ Write a program that describes AND prints five things about yourself using five 
 Here is an example program:
 
 ```python
-# Declare five variables with strings that describe yourself.
+ # Declare five variables with strings that describe yourself.
 name = 'My name is Simon Escalada-Mastick.'
 degrees = 'I studied linguistics and mathematics in college.'
 occupation = 'I am a data analyst and teacher at HPLS.'
@@ -138,4 +138,4 @@ print(city)
 print(favorite_restaurant)
 ```
 
-Turn in the code file in Google Classroom and submit the assignment in repl.it as well for full credit.
+Turn in the `string_basics.py` or the `string_basics.ipynb` file in Google Classroom for full credit.
