@@ -4,8 +4,8 @@
 
 ## Objectives:
 
-- Create strings in Python.
-- Use variables to represent strings.
+> - Create strings in Python.
+> - Use variables to represent strings.
 
 ---
 
