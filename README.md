@@ -1,5 +1,7 @@
 ![Imgur](https://i.imgur.com/m0Nxl3L.png)
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hasanprep/lesson-1.0-string-basics/master)
+
 # Lesson 1.0: String Basics
 
 ## Objectives:
